@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<head>
+</head>
+<body>
+	<h1>Hello, World!</h1>
+
+	{{#each posts}}
+		<h4>{{title}}</h4>
+		<p>{{body}}</p>
+	{{/each}}
+
+	<form method=post>
+		<input type="text" id="title" name="title" />
+		<textarea id="body" name="body" rows="10"></textarea>
+		<input type="submit" />
+
+	</form>
+</body>
